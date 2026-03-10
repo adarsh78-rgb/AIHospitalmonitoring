@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-100 text-slate-800;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.glass-card {
+  @apply bg-white/90 backdrop-blur border border-slate-200 shadow-sm rounded-2xl;
+}
+
+.loading-spinner {
+  @apply inline-block h-5 w-5 animate-spin rounded-full border-2 border-slate-300 border-t-medical-500;
+}
